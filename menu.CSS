@@ -1,26 +1,24 @@
-/* index.css */
 
-/* General Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #72ea7c; /* Light green background */
-    color: #2e7d32; /* Dark green text color */
+    background-color: #72ea7c; 
+    color: #2e7d32; 
 }
 
-/* Navbar Styles */
+
 .navbar {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: #66bb6a; /* Medium green background for the navbar */
+    background-color: #66bb6a; 
 }
 
 .navbar-brand {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #fff; /* White text color */
+    color: #fff; 
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -29,7 +27,7 @@ body {
     margin-right: 10px;
 }
 
-/* Menu Section Styles */
+
 .menu {
     padding: 20px;
     text-align: center;
@@ -66,7 +64,7 @@ body {
     font-size: 1em;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
     .menu-items {
         flex-direction: column;
@@ -77,19 +75,14 @@ body {
         width: 90%;
     }
     .menu-item {
-        margin-bottom: 20px; /* Add margin between menu items */
+        margin-bottom: 20px; 
     }
     .card-body img {
-        width: 100%; /* Ensure images take up the full width of the card body */
-        margin-bottom: 10px; /* Add some bottom margin between images */
+        width: 100%; 
+        margin-bottom: 10px; 
     }
-/* menu.css */
 
-.menu-item {
-    display: inline-block; /* Display items inline */
-    margin-right: 10px; /* Add some spacing between items */
-}
-    
+
 }
 
 
