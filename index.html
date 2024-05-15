@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="index.CSS">
+    <link rel="stylesheet" href="index.css">
     <title>NourishTogether</title>
 </head>
 
@@ -15,7 +15,7 @@
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./Images/Logo.svg" alt="Logo" width="40" height="40" class="d-inline-block align-text-center">
+                <img src="./images/Logo.svg" alt="Logo" width="40" height="40" class="d-inline-block align-text-center">
                 NourishTogether
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -182,5 +182,35 @@
         <section class="py-5 bg-light">
             <div class="container">
                 <h2 class="text-center">Contact Us</h2>
-                <p class="lead
+                <p class="lead">Have questions or want to get involved? Reach out to us through the form below:</p>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
 
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p>&copy; 2024 NourishTogether. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
