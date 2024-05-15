@@ -10,9 +10,9 @@
     <title>NourishTogether</title>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <!-- Header -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./images/Logo.svg" alt="Logo" width="40" height="40" class="d-inline-block align-text-center">
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="#">Food Box</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Volunteer</a>
+                        <a class="nav-link" href="#volunteer">Volunteer</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -170,11 +170,11 @@
         </section>
 
         <!-- Volunteer Section -->
-        <section class="py-5">
+        <section id="volunteer" class="py-5">
             <div class="container text-center">
                 <h2>Volunteer with Us</h2>
                 <p class="lead">Help us make a difference in the community by volunteering your time and skills. Volunteers can work in the kitchen, on the floor, or in our warehouse.</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a href="#volunteer" class="btn btn-primary">Learn More</a>
             </div>
         </section>
 
@@ -214,3 +214,4 @@
 </body>
 
 </html>
+
