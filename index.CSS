@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #e8f5e9; /* Light green background */
+    background-color: #f0f7f6; /* Light green background */
     color: #2e7d32; /* Dark green text color */
 }
 
@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: #66bb6a; /* Medium green background for the navbar */
+    background-color: #388e3c; /* Darker green background for the navbar */
 }
 
 .navbar-brand {
@@ -36,7 +36,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 60vh;
-    background-image: url('/images/billboard\ design.png'); /* Background image */
+    background-image: url('/images/greenery.jpg'); /* Background image with greenery */
     background-size: cover;
     background-position: center;
     color: #fff; /* White text color for contrast */
@@ -52,6 +52,23 @@ body {
 .hero p {
     font-size: 1.5em;
     margin: 0;
+}
+
+/* Volunteer Section Styles */
+#volunteer {
+    margin-top: -20px; /* Adjust the value as needed */
+    background-color: #dcedc8; /* Lighter green background for the volunteer section */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#volunteer h2 {
+    color: #2e7d32; /* Dark green text color */
+}
+
+#volunteer p {
+    color: #388e3c; /* Darker green text color */
 }
 
 /* Responsive Adjustments */

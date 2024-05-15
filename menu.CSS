@@ -76,6 +76,20 @@ body {
     .menu-item {
         width: 90%;
     }
+    .menu-item {
+        margin-bottom: 20px; /* Add margin between menu items */
+    }
+    .card-body img {
+        width: 100%; /* Ensure images take up the full width of the card body */
+        margin-bottom: 10px; /* Add some bottom margin between images */
+    }
+/* menu.css */
+
+.menu-item {
+    display: inline-block; /* Display items inline */
+    margin-right: 10px; /* Add some spacing between items */
+}
+    
 }
 
 
